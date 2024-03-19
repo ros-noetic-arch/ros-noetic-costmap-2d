@@ -2,7 +2,7 @@ pkgdesc="ROS - This package provides an implementation of a 2D costmap."
 url='https://wiki.ros.org/costmap_2d'
 
 pkgname='ros-noetic-costmap-2d'
-pkgver='1.17.1'
+pkgver='1.17.3'
 arch=('i686' 'x86_64' 'aarch64' 'armv7h' 'armv6h')
 pkgrel=1
 license=('BSD')
@@ -47,7 +47,7 @@ depends=(
 
 _dir="navigation-${pkgver}/costmap_2d"
 source=("${pkgname}-${pkgver}.tar.gz"::"https://github.com/ros-planning/navigation/archive/${pkgver}.tar.gz")
-sha256sums=('50e1fb4a0beb190202e9730180464b76b3a481cae2665e0f1944eb908929148e')
+sha256sums=('6500e427f868ea63801203715f41cbec4ed1bd1f9a29ae130a74b3776a7684f6')
 
 build() {
   # Use ROS environment variables
