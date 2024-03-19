@@ -1,6 +1,6 @@
 pkgbase = ros-noetic-costmap-2d
 	pkgdesc = ROS - This package provides an implementation of a 2D costmap.
-	pkgver = 1.17.1
+	pkgver = 1.17.3
 	pkgrel = 1
 	url = https://wiki.ros.org/costmap_2d
 	arch = i686
@@ -33,7 +33,7 @@ pkgbase = ros-noetic-costmap-2d
 	depends = ros-noetic-voxel-grid
 	depends = ros-noetic-message-runtime
 	depends = ros-noetic-rosconsole
-	source = ros-noetic-costmap-2d-1.17.1.tar.gz::https://github.com/ros-planning/navigation/archive/1.17.1.tar.gz
-	sha256sums = 50e1fb4a0beb190202e9730180464b76b3a481cae2665e0f1944eb908929148e
+	source = ros-noetic-costmap-2d-1.17.3.tar.gz::https://github.com/ros-planning/navigation/archive/1.17.3.tar.gz
+	sha256sums = 6500e427f868ea63801203715f41cbec4ed1bd1f9a29ae130a74b3776a7684f6
 
 pkgname = ros-noetic-costmap-2d
